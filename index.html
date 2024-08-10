@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Quiz Website - by Circle 12</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<button
+					class="hamburger"
+					popovertarget="menu"
+					aria-label="Open menu"
+					onclick="toggleMenu()">
+					<img
+						src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Hamburger_icon.svg"
+						alt="" />
+				</button>
+				<nav id="menu">
+					<button
+						class="close"
+						popovertarget="menu"
+						popovertargetaction="hide">
+						<span>❌</span>
+					</button>
+					<ul>
+						<li>
+							<a href="html_quiz/index.html"
+								>HTML Quiz</a
+							>
+						</li>
+						<li>
+							<a href="#">CSS Quiz</a>
+						</li>
+						<li>
+							<a href="js_quiz/index.html"
+								>JavaScript Quiz</a
+							>
+						</li>
+					</ul>
+				</nav>
+				<nav class="bigScreen">
+					<ul>
+						<li>
+							<a href="html quiz/index.html"
+								>HTML Quiz</a
+							>
+						</li>
+						<li>
+							<a href="css_quiz.html">CSS Quiz</a>
+						</li>
+						<li>
+							<a href="js quiz/index.html"
+								>JavaScript Quiz</a
+							>
+						</li>
+					</ul>
+				</nav>
+			</header>
+			<main class="main">
+				<h1>Welcome to the Quiz Website!</h1>
+				<p>Choose a language to start your quiz.</p>
+			</main>
+            <footer class="footer">
+                <p><a href="#">Developed by ChatGPT</a></p>
+            </footer>
+		</div>
+		<script>
+			/*
+                JavaScript to toggle the popover attribute on the
+                #menu element when the hamburger button is clicked
+            */
+
+			function toggleMenu() {
+				const menu = document.getElementById("menu");
+				menu.classList.toggle("show"); // Add or remove "show" class based on current state
+			}
+		</script>
+	</body>
+</html>
