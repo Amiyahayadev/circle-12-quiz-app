@@ -103,6 +103,8 @@ h1 {
     }
 	.hamburger {
 		display: block; /* displayed only on small screens.*/
+        width: 2.125rem;
+        height: 2.125rem;
 		background-color: var(--color-3);
 		border: 1px solid var(--hamburger-bdr);
 		border-radius: 2px;
