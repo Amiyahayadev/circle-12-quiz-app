@@ -97,7 +97,9 @@ h1 {
 @media all and (max-width: 540px) {
     .container {
         max-height: 100vh;
-        overflow-y: hidden;
+    }
+    main {
+        padding: 0 50px !important;
     }
 	.hamburger {
 		display: block; /* displayed only on small screens.*/
