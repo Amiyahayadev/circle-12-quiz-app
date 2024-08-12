@@ -771,28 +771,28 @@
 			</div>
 
 			<div class="question">
-				<p>
-					30. What does the <code>alt</code> attribute in an
-					<code>&lt;img&gt;</code> tag do?
-				</p>
-				<div class="options">
-					<label
-						><input type="radio" name="q30" value="a" />
-						Provides a description of the image.</label
-					><br />
-					<label
-						><input type="radio" name="q30" value="b" />
-						Specifies the image source.</label
-					><br />
-					<label
-						><input type="radio" name="q30" value="c" />
-						Sets the image width.</label
-					><br />
-					<label
-						><input type="radio" name="q30" value="d" />
-						Defines the image height.</label
-					>
-				</div>
+				 <p>
+                    30. Which of the following statements is <strong><em>true</em></strong> regarding the use
+                    of modal and non-modal dialogs in web applications?
+                </p>
+            <div class="options">
+                <label
+                    ><input type="radio" name="q30" value="a" />
+                    Non-modal dialogs are generally preferable for critical user tasks.</label
+                ><br />
+                <label
+                    ><input type="radio" name="q30" value="b" />
+                    Modal dialogs are often used to ensure user attention before proceeding.</label
+                ><br />
+                <label
+                    ><input type="radio" name="q30" value="c" />
+                    Both modal and non-modal dialogs block user interactions until dismissed.</label
+                ><br />
+                <label
+                    ><input type="radio" name="q30" value="d" />
+                    Non-modal dialogs do not have any user interface constraints.</label
+                >
+            </div>
 			</div>
 
 			<div class="question">
@@ -1081,7 +1081,7 @@
 			</div>
 			<div class="question">
 				<p>
-					42. WWhich Git command is used to add changes to the staging area??
+					42. Which Git command is used to add changes to the staging area??
 				</p>
 				<div class="options">
 					<label><input type="radio" name="q42" value="a"> git stage</label><br>
@@ -1137,30 +1137,27 @@
 			</div>
 
 			<div class="question">
-				<p>
-					47. What is the purpose of the
-					<code>&lt;link&gt;</code> element in the
-					<code>&lt;head&gt;</code> section?
-				</p>
-				<div class="options">
-					<label
-						><input type="radio" name="q47" value="a" />
-						To link to external resources like
-						stylesheets.</label
-					><br />
-					<label
-						><input type="radio" name="q47" value="b" />
-						To define a script for the document.</label
-					><br />
-					<label
-						><input type="radio" name="q47" value="c" />
-						To create a navigation menu.</label
-					><br />
-					<label
-						><input type="radio" name="q47" value="d" />
-						To display images.</label
-					>
-				</div>
+				<p> 47. What is a primary characteristic that distinguishes a modal dialog
+                    from a non-modal dialog in HTML?
+                </p>
+                <div class="options">
+                    <label
+                        ><input type="radio" name="q48" value="a" />
+                        A modal dialog allows users to interact with the main content while it is open.</label
+                    ><br />
+                    <label
+                        ><input type="radio" name="q48" value="b" />
+                        A modal dialog blocks interactions with the main content until it is closed.</label
+                    ><br />
+                    <label
+                        ><input type="radio" name="q48" value="c" />
+                        A modal dialog does not require user interaction to close.</label
+                    ><br />
+                    <label
+                        ><input type="radio" name="q48" value="d" />
+                        A non-modal dialog can only be used for alerts.</label
+                    >
+                </div>
 			</div>
 
 			<div class="question">
@@ -1239,6 +1236,30 @@
 					>
 				</div>
 			</div>
+            <div class="question">
+                <p>
+                    51. Which of the following accurately describes the primary use cases for
+                    the <code>number</code>, <code>range</code>, and <code>date</code> input types in HTML forms?
+                </p>
+                <div class="options">
+                    <label>
+                    <input type="radio" name="q51" value="a" />
+                    number for integers, range for floating-point values, and date for any date format.
+                    </label><br>
+                    <label>
+                    <input type="radio" name="q51" value="b" />
+                    number for numerical input, range for selecting a value within a predefined range, and date for selecting a date.
+                    </label><br>
+                    <label>
+                    <input type="radio" name="q51" value="c" />
+                    number and range are interchangeable, while date is for specific date formats.
+                    </label><br>
+                    <label>
+                    <input type="radio" name="q51" value="d" />
+                    number for any numerical input, range for text input, and date for date and time input.
+                    </label>
+                </div>
+            </div>
             <div id="results"></div>
 			<button
 				type="button"
@@ -1284,11 +1305,11 @@
             q11: "a", q12: "a", q13: "b", q14: "b", q15: "a",
             q16: "a", q17: "d", q18: "b", q19: "d", q20: "c",
             q21: "b", q22: "a", q23: "a", q24: "a", q25: "a",
-            q26: "b", q27: "a", q28: "a", q29: "a", q30: "a",
+            q26: "b", q27: "a", q28: "a", q29: "a", q30: "b",
             q31: "c", q32: "a", q33: "b", q34: "a", q35: "b",
             q36: "a", q37: "b", q38: "a", q39: "b", q40: "b",
             q41: "b", q42: "b", q43: "a", q44: "c", q45: "a",
-            q46: "b", q47: "c", q48: "b", q49: "a", q50: "b"
+            q46: "b", q47: "b", q48: "b", q49: "a", q50: "b", q51: "b"
         };
 
         // Clear previous results
@@ -1296,7 +1317,7 @@
         resultsContainer.innerHTML = "";
 
         // Check answers and display results
-        for (let i = 1; i <= 50; i++) {
+        for (let i = 1; i <= 51; i++) {
             const userAnswer = formData.get(`q${i}`);
             const correctAnswer = correctAnswers[`q${i}`];
 
@@ -1316,7 +1337,7 @@
             resultsContainer.appendChild(resultParagraph);
         }
 
-        alert(`Your score is ${score} out of 50`);
+        alert(`Your score is ${score} out of 51`);
     }
 
     // Start the timer when the page loads
