@@ -2,7 +2,7 @@
 This is a simple practice test site to help circle 12 members of Altschool Karatu cohort prepare for technical coding exams.
 
 ## Live Site
-[coding-quiz.app]()
+[coding-quiz.app](https://amiyahayadev.github.io/circle-12-quiz-app/)
 
 ## Usage
 Follow these steps to create your own version of the quiz and customize to your need, or to simply play *offline*.
