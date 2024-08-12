@@ -95,6 +95,10 @@ h1 {
 
 /*--------------- Mobile layout --------------- */
 @media all and (max-width: 540px) {
+    .container {
+        max-height: 100vh;
+        overflow-y: hidden;
+    }
 	.hamburger {
 		display: block; /* displayed only on small screens.*/
 		background-color: var(--color-3);
