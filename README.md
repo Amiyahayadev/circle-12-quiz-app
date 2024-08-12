@@ -18,6 +18,7 @@ We welcome contributions to improve the quiz! Here are some areas where you can 
 
 * **Create the CSS quiz page:** Develop the HTML, CSS, and JavaScript for the CSS quiz section.
 * **Add more JavaScript questions:** Contribute new JavaScript questions based on Altschool learning content.
+* **Improve User Interface:** Make the Html quiz page more user friendly using best practices.
 
 To contribute:
 - **fork the repository**,
