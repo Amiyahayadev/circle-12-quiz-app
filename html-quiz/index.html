@@ -1,0 +1,1326 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>HTML Quiz - based on Altschool slides</title>
+	</head>
+
+	<body>
+		<header>
+			<nav>
+				<a href="../index.html">Home</a>
+			</nav>
+		</header>
+
+		<h1>HTML Quiz</h1>
+		<div id="timer">Time Left: <span id="time">10:00</span></div>
+		<form id="quizForm">
+			<div class="question">
+				<p>
+					1. What is the purpose of the
+					<code>&lt;head&gt;</code> element in an HTML
+					document?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q1" value="a" />
+						To define the main content of the
+						page.</label
+					><br />
+					<label
+						><input type="radio" name="q1" value="b" />
+						To include metadata and links to
+						scripts/stylesheets.</label
+					><br />
+					<label
+						><input type="radio" name="q1" value="c" />
+						To create a footer for the page.</label
+					><br />
+					<label
+						><input type="radio" name="q1" value="d" />
+						To display images.</label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>
+					2. Which attribute is used to specify the language
+					of an HTML document?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q2" value="a" />
+						<code>lang</code></label
+					><br />
+					<label
+						><input type="radio" name="q2" value="b" />
+						<code>language</code></label
+					><br />
+					<label
+						><input type="radio" name="q2" value="c" />
+						<code>locale</code></label
+					><br />
+					<label
+						><input type="radio" name="q2" value="d" />
+						<code>xml:lang</code></label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>
+					3. What is the function of the
+					<code>alt</code> attribute in the
+					<code>&lt;img&gt;</code> tag?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q3" value="a" />
+						To specify the image source.</label
+					><br />
+					<label
+						><input type="radio" name="q3" value="b" />
+						To provide alternative text for
+						accessibility.</label
+					><br />
+					<label
+						><input type="radio" name="q3" value="c" />
+						To define the image size.</label
+					><br />
+					<label
+						><input type="radio" name="q3" value="d" />
+						To link to another page.</label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>
+					4. Which HTML element is used to create a
+					navigation menu?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q4" value="a" />
+						<code>&lt;nav&gt;</code></label
+					><br />
+					<label
+						><input type="radio" name="q4" value="b" />
+						<code>&lt;menu&gt;</code></label
+					><br />
+					<label
+						><input type="radio" name="q4" value="c" />
+						<code>&lt;header&gt;</code></label
+					><br />
+					<label
+						><input type="radio" name="q4" value="d" />
+						<code>&lt;ul&gt;</code></label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>
+					5. What does the <code>role</code> attribute do in
+					HTML?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q5" value="a" />
+						It defines the style of an element.</label
+					><br />
+					<label
+						><input type="radio" name="q5" value="b" />
+						It provides semantic meaning for
+						accessibility.</label
+					><br />
+					<label
+						><input type="radio" name="q5" value="c" />
+						It specifies the ID of an element.</label
+					><br />
+					<label
+						><input type="radio" name="q5" value="d" />
+						It links to external stylesheets.</label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>6. Which of the following is a boolean attribute?</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q6" value="a" />
+						<code>required</code></label
+					><br />
+					<label
+						><input type="radio" name="q6" value="b" />
+						<code>value</code></label
+					><br />
+					<label
+						><input type="radio" name="q6" value="c" />
+						<code>href</code></label
+					><br />
+					<label
+						><input type="radio" name="q6" value="d" />
+						<code>src</code></label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>
+					7. What is the purpose of the
+					<code>&lt;details&gt;</code> element?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q7" value="a" />
+						To create a collapsible section of
+						content.</label
+					><br />
+					<label
+						><input type="radio" name="q7" value="b" />
+						To display a list of items.</label
+					><br />
+					<label
+						><input type="radio" name="q7" value="c" />
+						To define a footer for the page.</label
+					><br />
+					<label
+						><input type="radio" name="q7" value="d" />
+						To create a navigation menu.</label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>
+					8. How can you access the current time of a video
+					using HTML APIs?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q8" value="a" />
+						Using
+						<code
+							>HTMLMediaElement.currentTime</code
+						></label
+					><br />
+					<label
+						><input type="radio" name="q8" value="b" />
+						Using
+						<code>video.currentTime()</code></label
+					><br />
+					<label
+						><input type="radio" name="q8" value="c" />
+						Using <code>getCurrentTime()</code></label
+					><br />
+					<label
+						><input type="radio" name="q8" value="d" />
+						Using <code>currentTime.get()</code></label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>
+					9. What is the purpose of the
+					<code>contenteditable</code> attribute?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q9" value="a" />
+						To make an element editable by the
+						user.</label
+					><br />
+					<label
+						><input type="radio" name="q9" value="b" />
+						To specify the content type of an
+						element.</label
+					><br />
+					<label
+						><input type="radio" name="q9" value="c" />
+						To define the language of the
+						content.</label
+					><br />
+					<label
+						><input type="radio" name="q9" value="d" />
+						To set the visibility of an element.</label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>
+					10. Which of the following is a semantic HTML
+					element?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q10" value="a" />
+						<code>&lt;div&gt;</code></label
+					><br />
+					<label
+						><input type="radio" name="q10" value="b" />
+						<code>&lt;span&gt;</code></label
+					><br />
+					<label
+						><input type="radio" name="q10" value="c" />
+						<code>&lt;article&gt;</code></label
+					><br />
+					<label
+						><input type="radio" name="q10" value="d" />
+						<code>&lt;body&gt;</code></label
+					>
+				</div>
+			</div>
+			<div class="question">
+				<p>
+					11. What does the
+					<code>&lt;meta charset="UTF-8"&gt;</code> tag
+					specify?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q11" value="a" />
+						The character encoding for the
+						document.</label
+					><br />
+					<label
+						><input type="radio" name="q11" value="b" />
+						The title of the document.</label
+					><br />
+					<label
+						><input type="radio" name="q11" value="c" />
+						The viewport settings for mobile
+						devices.</label
+					><br />
+					<label
+						><input type="radio" name="q11" value="d" />
+						The author of the document.</label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>
+					12. Which paradigm is focused on using functions
+					as the primary building blocks?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q24" value="a" />
+						Functional Programming</label
+					><br />
+					<label
+						><input type="radio" name="q12" value="b" />
+						Object-Oriented Programming</label
+					><br />
+					<label
+						><input type="radio" name="q12" value="c" />
+						Procedural Programming</label
+					><br />
+					<label
+						><input type="radio" name="q12" value="d" />
+						Logic Programming</label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>
+					13. What is the purpose of the
+					<code>&lt;figure&gt;</code> element?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q13" value="a" />
+						To group related content.</label
+					><br />
+					<label
+						><input type="radio" name="q13" value="b" />
+						To represent self-contained content, like
+						images or diagrams.</label
+					><br />
+					<label
+						><input type="radio" name="q13" value="c" />
+						To define a footer for the page.</label
+					><br />
+					<label
+						><input type="radio" name="q13" value="d" />
+						To create a navigation menu.</label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>
+					14. Which HTML element is used to define a section
+					of related content?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q14" value="a" />
+						<code>&lt;div&gt;</code></label
+					><br />
+					<label
+						><input type="radio" name="q14" value="b" />
+						<code>&lt;section&gt;</code></label
+					><br />
+					<label
+						><input type="radio" name="q14" value="c" />
+						<code>&lt;article&gt;</code></label
+					><br />
+					<label
+						><input type="radio" name="q14" value="d" />
+						<code>&lt;aside&gt;</code></label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>
+					15. What does the
+					<code>&lt;blockquote&gt;</code> element represent?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q15" value="a" />
+						A section of text that is quoted from
+						another source.</label
+					><br />
+					<label
+						><input type="radio" name="q15" value="b" />
+						A paragraph of text.</label
+					><br />
+					<label
+						><input type="radio" name="q15" value="c" />
+						A navigation link.</label
+					><br />
+					<label
+						><input type="radio" name="q15" value="d" />
+						A header for a section.</label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>
+					16. Which HTML element is used to create a
+					drop-down list?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q16" value="a" />
+						<code>&lt;select&gt;</code></label
+					><br />
+					<label
+						><input type="radio" name="q16" value="b" />
+						<code>&lt;dropdown&gt;</code></label
+					><br />
+					<label
+						><input type="radio" name="q16" value="c" />
+						<code>&lt;list&gt;</code></label
+					><br />
+					<label
+						><input type="radio" name="q16" value="d" />
+						<code>&lt;option&gt;</code></label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>
+					17. What is the purpose of the
+					<code>&lt;canvas&gt;</code> element?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q17" value="a" />
+						To define a section of text.</label
+					><br />
+					<label
+						><input type="radio" name="q17" value="b" />
+						To display images.</label
+					><br />
+					<label
+						><input type="radio" name="q17" value="c" />
+						To create a video player.</label
+					><br />
+					<label
+						><input type="radio" name="q17" value="d" />
+						To create a drawing area for
+						graphics.</label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>18. Why is using semantic HTML important?</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q18" value="a" />
+						It makes the website load faster</label
+					><br />
+					<label
+						><input type="radio" name="q18" value="b" />
+						It enhances accessibility and
+						machine-readability</label
+					><br />
+					<label
+						><input type="radio" name="q18" value="c" />
+						It allows for more complex designs</label
+					><br />
+					<label
+						><input type="radio" name="q18" value="d" />
+						It reduces the need for CSS</label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>19. Which of the following is a global attribute?</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q19" value="a" />
+						autofocus</label
+					><br />
+					<label
+						><input type="radio" name="q19" value="b" />
+						checked</label
+					><br />
+					<label
+						><input type="radio" name="q19" value="c" />
+						disabled</label
+					><br />
+					<label
+						><input type="radio" name="q19" value="d" />
+						id</label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>20. What are boolean attributes?</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q20" value="a" />
+						Attributes that accept any string
+						value</label
+					><br />
+					<label
+						><input type="radio" name="q20" value="b" />
+						Attributes that have a limited set of
+						predefined values</label
+					><br />
+					<label
+						><input type="radio" name="q20" value="c" />
+						Attributes that are always true if
+						present</label
+					><br />
+					<label
+						><input type="radio" name="q20" value="d" />
+						Attributes that only apply to text
+						elements</label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>
+					21. What does the target attribute
+					<em>_blank</em> do when used in an
+					<code>&lt;a&gt;</code> tag? element?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q21" value="a" />
+						Opens the link in the same tab</label
+					><br />
+					<label
+						><input type="radio" name="q21" value="b" />
+						Opens the link in a new tab or window</label
+					><br />
+					<label
+						><input type="radio" name="q21" value="c" />
+						Opens the link in a new frame</label
+					><br />
+					<label
+						><input type="radio" name="q21" value="d" />
+						Opens the link in a pop-up window</label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>
+					22. What does the
+					<code>&lt;link&gt;</code> element do?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q22" value="a" />
+						Links to external resources like
+						stylesheets.</label
+					><br />
+					<label
+						><input type="radio" name="q22" value="b" />
+						Defines a hyperlink.</label
+					><br />
+					<label
+						><input type="radio" name="q22" value="c" />
+						Embeds audio content.</label
+					><br />
+					<label
+						><input type="radio" name="q22" value="d" />
+						Creates a table.</label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>23. How do you create a mailto link in HTML?</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q23" value="a" />
+						<code
+							>&lt;a
+							href="mailto:someone@example.com"&gt;Email&lt;/a&gt;</code
+						></label
+					><br />
+					<label
+						><input type="radio" name="q23" value="b" />
+						<code
+							>&lt;a
+							mail="someone@example.com"&gt;Email&lt;/a&gt;</code
+						></label
+					><br />
+					<label
+						><input type="radio" name="q23" value="c" />
+						<code
+							>&lt;a
+							href="mail:someone@example.com"&gt;Email&lt;/a&gt;</code
+						></label
+					><br />
+					<label
+						><input type="radio" name="q23" value="d" />
+						<code
+							>&lt;a
+							email="someone@example.com"&gt;Email&lt;/a&gt;</code
+						></label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>
+					24. What is the purpose of the
+					<code>&lt;summary&gt;</code> element?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q24" value="a" />
+						To provide a description for a
+						<code>&lt;details&gt;</code> element.</label
+					><br />
+					<label
+						><input type="radio" name="q24" value="b" />
+						To define a header for a section.</label
+					><br />
+					<label
+						><input type="radio" name="q24" value="c" />
+						To create a navigation menu.</label
+					><br />
+					<label
+						><input type="radio" name="q24" value="d" />
+						To display images.</label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>
+					25. Which attribute is used to specify the
+					language of the document?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q25" value="a" />
+						<code>lang</code></label
+					><br />
+					<label
+						><input type="radio" name="q25" value="b" />
+						<code>language</code></label
+					><br />
+					<label
+						><input type="radio" name="q25" value="c" />
+						<code>xml:lang</code></label
+					><br />
+					<label
+						><input type="radio" name="q25" value="d" />
+						<code>locale</code></label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>
+					26. Which attribute specifies where to send the
+					form data when a form is submitted?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q26" value="a" />
+						method</label
+					><br />
+					<label
+						><input type="radio" name="q26" value="b" />
+						action</label
+					><br />
+					<label
+						><input type="radio" name="q26" value="c" />
+						enctype</label
+					><br />
+					<label
+						><input type="radio" name="q26" value="d" />
+						submit</label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>
+					27. Which HTML element is used to create a
+					checkbox?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q27" value="a" />
+						<code
+							>&lt;input type="checkbox"&gt;</code
+						></label
+					><br />
+					<label
+						><input type="radio" name="q27" value="b" />
+						<code>&lt;checkbox&gt;</code></label
+					><br />
+					<label
+						><input type="radio" name="q27" value="c" />
+						<code>&lt;check&gt;</code></label
+					><br />
+					<label
+						><input type="radio" name="q27" value="d" />
+						<code>&lt;radio&gt;</code></label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>
+					28. What is the purpose of the
+					<code>&lt;title&gt;</code> element?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q28" value="a" />
+						To define the title of the document.</label
+					><br />
+					<label
+						><input type="radio" name="q28" value="b" />
+						To create a header for a section.</label
+					><br />
+					<label
+						><input type="radio" name="q28" value="c" />
+						To embed audio content.</label
+					><br />
+					<label
+						><input type="radio" name="q28" value="d" />
+						To create a navigation menu.</label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>
+					29. Which HTML element is used to create a
+					horizontal line?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q29" value="a" />
+						<code>&lt;hr&gt;</code></label
+					><br />
+					<label
+						><input type="radio" name="q29" value="b" />
+						<code>&lt;line&gt;</code></label
+					><br />
+					<label
+						><input type="radio" name="q29" value="c" />
+						<code>&lt;horizontal&gt;</code></label
+					><br />
+					<label
+						><input type="radio" name="q29" value="d" />
+						<code>&lt;div&gt;</code></label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>
+					30. What does the <code>alt</code> attribute in an
+					<code>&lt;img&gt;</code> tag do?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q30" value="a" />
+						Provides a description of the image.</label
+					><br />
+					<label
+						><input type="radio" name="q30" value="b" />
+						Specifies the image source.</label
+					><br />
+					<label
+						><input type="radio" name="q30" value="c" />
+						Sets the image width.</label
+					><br />
+					<label
+						><input type="radio" name="q30" value="d" />
+						Defines the image height.</label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>
+					31. Which attribute is used to merge two or more
+					table cells horizontally?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q31" value="a" />
+						<code>rowspan</code></label
+					><br />
+					<label
+						><input type="radio" name="q31" value="b" />
+						<code>merge</code></label
+					><br />
+					<label
+						><input type="radio" name="q31" value="c" />
+						<code>colspan</code></label
+					><br />
+					<label
+						><input type="radio" name="q31" value="d" />
+						<code>span</code></label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>
+					32. What does the <code>href</code> attribute
+					specify in an <code>&lt;a&gt;</code> tag?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q32" value="a" />
+						The URL of the page the link goes to.</label
+					><br />
+					<label
+						><input type="radio" name="q32" value="b" />
+						The text displayed for the link.</label
+					><br />
+					<label
+						><input type="radio" name="q32" value="c" />
+						The target of the link.</label
+					><br />
+					<label
+						><input type="radio" name="q32" value="d" />
+						The style of the link.</label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>
+					33. What is the purpose of the
+					<em>placeholder</em> attribute in an `input`
+					element?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q33" value="a" />
+						To provide a default value for the input
+						field</label
+					><br />
+					<label
+						><input type="radio" name="q33" value="b" />
+						To display a short hint inside the input
+						field</label
+					><br />
+					<label
+						><input type="radio" name="q33" value="c" />
+						To specify the type of input expected</label
+					><br />
+					<label
+						><input type="radio" name="q33" value="d" />
+						To label the input field</label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>
+					34.What does the <em>aria-label</em> attribute do?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q34" value="a" />
+						It provides a label for an element without
+						visual text</label
+					><br />
+					<label
+						><input type="radio" name="q34" value="b" />
+						It defines the role of an element</label
+					><br />
+					<label
+						><input type="radio" name="q34" /> To define
+						the It specifies the source of an
+						element</label
+					><br />
+					<label
+						><input type="radio" name="q34" value="d" />
+						It links to an external script</label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>
+					35. Which element is used to define a
+					self-contained piece of content that could be
+					distributed or reused independently?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q35" value="a" />
+						<code>&lt;section&gt;</code></label
+					><br />
+					<label
+						><input type="radio" name="q35" value="b" />
+						<code>&lt;article&gt;</code></label
+					><br />
+					<label
+						><input type="radio" name="q35" value="c" />
+						<code>&lt;div&gt;</code></label
+					><br />
+					<label
+						><input type="radio" name="q35" value="d" />
+						<code>&lt;aside&gt;</code></label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>
+					36. What is the purpose of the
+					<code>&lt;meta&gt;</code> tag in the
+					<code>&lt;head&gt;</code> section?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q36" value="a" />
+						To provide metadata about the HTML
+						document.</label
+					><br />
+					<label
+						><input type="radio" name="q36" value="b" />
+						To link to external stylesheets.</label
+					><br />
+					<label
+						><input type="radio" name="q36" value="c" />
+						To define the title of the document.</label
+					><br />
+					<label
+						><input type="radio" name="q36" value="d" />
+						To create a script for the document.</label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>
+					37. Which HTML element is used to create a list of
+					items that are not ordered?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q37" value="a" />
+						<code>&lt;ol&gt;</code></label
+					><br />
+					<label
+						><input type="radio" name="q37" value="b" />
+						<code>&lt;ul&gt;</code></label
+					><br />
+					<label
+						><input type="radio" name="q37" value="c" />
+						<code>&lt;li&gt;</code></label
+					><br />
+					<label
+						><input type="radio" name="q37" value="d" />
+						<code>&lt;dl&gt;</code></label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>
+					38. What does the <code>required</code> attribute
+					do in a form control?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q38" value="a" />
+						It makes the field mandatory to fill out
+						before submission.</label
+					><br />
+					<label
+						><input type="radio" name="q38" value="b" />
+						It specifies the maximum length of the
+						input.</label
+					><br />
+					<label
+						><input type="radio" name="q38" value="c" />
+						It sets a default value for the
+						input.</label
+					><br />
+					<label
+						><input type="radio" name="q38" value="d" />
+						It disables the input field.</label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>
+					39. Which attribute is used to specify a default
+					value for an input field?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q39" value="a" />
+						<code>default</code></label
+					><br />
+					<label
+						><input type="radio" name="q39" value="b" />
+						<code>value</code></label
+					><br />
+					<label
+						><input type="radio" name="q39" value="c" />
+						<code>initial</code></label
+					><br />
+					<label
+						><input type="radio" name="q39" value="d" />
+						<code>data</code></label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>40. What does the <em>role</em> attribute do?</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q40" value="a" />
+						It provides a label for an input
+						field.</label
+					><br />
+					<label
+						><input type="radio" name="q40" value="b" />
+						It specifies the role of an element in the
+						document.</label
+					><br />
+					<label
+						><input type="radio" name="q40" value="c" />
+						It defines a group of related form
+						controls.</label
+					><br />
+					<label
+						><input type="radio" name="q40" value="d" />
+						It specifies the type of input
+						expected.</label
+					>
+				</div>
+			</div>
+			<div class="question">
+				<p>
+					41. What command is used to initialize a new Git
+					repository?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q41" value="a" />
+						git start</label
+					><br />
+					<label
+						><input type="radio" name="q41" value="b" />
+						git init</label
+					><br />
+					<label
+						><input type="radio" name="q41" value="c" />
+						git new</label
+					><br />
+					<label
+						><input type="radio" name="q41" value="d" />
+						git create</label
+					><br />
+				</div>
+			</div>
+			<div class="question">
+				<p>
+					42. WWhich Git command is used to add changes to the staging area??
+				</p>
+				<div class="options">
+					<label><input type="radio" name="q42" value="a"> git stage</label><br>
+                    <label><input type="radio" name="q42" value="b"> git add</label><br>
+                    <label><input type="radio" name="q42" value="c"> git commit</label><br>
+                    <label><input type="radio" name="q42" value="d"> git update</label><br>
+				</div>
+			</div>
+			<div class="question">
+				<p>
+					43. What will create a new branch in Git?
+				</p>
+				<div class="options">
+					<label><input type="radio" name="q43" value="a"> git branch <branch_name></label><br>
+                    <label><input type="radio" name="q43" value="b"> git create <branch_name></label><br>
+                    <label><input type="radio" name="q43" value="c"> git new-branch <branch_name></label><br>
+                    <label><input type="radio" name="q43" value="d"> git switch <branch_name></label><br>
+				</div>
+			</div>
+			<div class="question">
+				<p>
+					44. What command do you use to remove a file from the staging area in Git?
+				</p>
+				<div class="options">
+					<label><input type="radio" name="q44" value="a"> git remove &lt;file_name&gt;</label><br>
+                    <label><input type="radio" name="q44" value="b"> git unstage &lt;file_name&gt;</label><br>
+                    <label><input type="radio" name="q44" value="c"> git reset &lt;file_name&gt;</label><br>
+                    <label><input type="radio" name="q44" value="d"> git clear &lt;file_name&gt;</label><br>
+				</div>
+			</div>
+			<div class="question">
+				<p>
+					45.How can you see which files have been changed, staged, or committed in Git?
+				</p>
+                <div class="options">
+                    <label><input type="radio" name="q45" value="a"> git status</label><br>
+                    <label><input type="radio" name="q45" value="b"> git diff</label><br>
+                    <label><input type="radio" name="q45" value="c"> git changes</label><br>
+                    <label><input type="radio" name="q45" value="d"> git check-files</label><br>
+                </div>
+			</div>
+
+			<div class="question">
+				<p>
+					46. Which command will show the commit history in Git?
+				</p>
+				<div class="options">
+					<label><input type="radio" name="q46" value="a"> git history</label><br>
+                    <label><input type="radio" name="q46" value="b"> git log</label><br>
+                    <label><input type="radio" name="q46" value="c"> git commits</label><br>
+                    <label><input type="radio" name="q46" value="d"> git show-commits</label><br>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>
+					47. What is the purpose of the
+					<code>&lt;link&gt;</code> element in the
+					<code>&lt;head&gt;</code> section?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q47" value="a" />
+						To link to external resources like
+						stylesheets.</label
+					><br />
+					<label
+						><input type="radio" name="q47" value="b" />
+						To define a script for the document.</label
+					><br />
+					<label
+						><input type="radio" name="q47" value="c" />
+						To create a navigation menu.</label
+					><br />
+					<label
+						><input type="radio" name="q47" value="d" />
+						To display images.</label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>
+					48. What is the purpose of the <code>&lt;iframe&gt;</code> tag in HTML?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q48" value="a" />
+						To create a link to an external website.
+</label
+					><br />
+					<label
+						><input type="radio" name="q48" value="b" />
+						To embed another HTML page within the current page</label
+					><br />
+					<label
+						><input type="radio" name="q48" value="c" />
+						To create a frame layout for the webpage.</label
+					><br />
+					<label
+						><input type="radio" name="q48" value="d" />
+						To modify the document's title.</label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>
+					49. What does the <code>autofocus</code> attribute
+					do in an input field?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q49" value="a" />
+						It automatically focuses the input field
+						when the page loads.</label
+					><br />
+					<label
+						><input type="radio" name="q49" value="b" />
+						It makes the input field read-only.</label
+					><br />
+					<label
+						><input type="radio" name="q49" value="c" />
+						It sets a default value for the
+						input.</label
+					><br />
+					<label
+						><input type="radio" name="q49" value="d" />
+						It specifies the maximum length of the
+						input.</label
+					>
+				</div>
+			</div>
+
+			<div class="question">
+				<p>
+					50. What other command is used to create a new branch in Git?
+				</p>
+				<div class="options">
+					<label
+						><input type="radio" name="q50" value="a" />
+						git new branch <code>&lt;branch_name&gt;</code></label
+					><br />
+					<label
+						><input type="radio" name="q50" value="b" />
+						git checkout -b <code>&lt;branch_name&gt;</code></label
+					><br />
+					<label
+						><input type="radio" name="q50" value="c" />
+						git branch-create<code>&lt;branch_name&gt;</code></label
+					><br />
+					<label
+						><input type="radio" name="q50" value="d" />
+						git BRANCH<code>&lt;branch_name&gt;</code></label
+					>
+				</div>
+			</div>
+            <div id="results"></div>
+			<button
+				type="button"
+				class="submit-btn"
+				onclick="submitQuiz()">
+				Submit Quiz
+			</button>
+		</form>
+    </body>
+    <script>
+    let timer;
+    let timeLeft = 3600; // Set the timer duration in seconds
+
+    // Function to start the timer
+    function startTimer() {
+        timer = setInterval(() => {
+            if (timeLeft <= 0) {
+                clearInterval(timer);
+                alert("Time's up!");
+                submitQuiz(); // Automatically submit the quiz when time is up
+            } else {
+                timeLeft--;
+                updateTimerDisplay();
+            }
+        }, 1000);
+    }
+
+    // Function to update the timer display
+    function updateTimerDisplay() {
+        const minutes = Math.floor(timeLeft / 60);
+        const seconds = timeLeft % 60;
+        document.getElementById("time").textContent = `${minutes}:${seconds < 10 ? "0" : ""}${seconds}`;
+    }
+
+    function submitQuiz() {
+        clearInterval(timer); // Stop the timer
+        const form = document.getElementById("quizForm");
+        const formData = new FormData(form);
+        let score = 0;
+        const correctAnswers = {
+            q1: "b", q2: "a", q3: "b", q4: "a", q5: "b",
+            q6: "a", q7: "a", q8: "a", q9: "a", q10: "c",
+            q11: "a", q12: "a", q13: "b", q14: "b", q15: "a",
+            q16: "a", q17: "d", q18: "b", q19: "d", q20: "c",
+            q21: "b", q22: "a", q23: "a", q24: "a", q25: "a",
+            q26: "b", q27: "a", q28: "a", q29: "a", q30: "a",
+            q31: "c", q32: "a", q33: "b", q34: "a", q35: "b",
+            q36: "a", q37: "b", q38: "a", q39: "b", q40: "b",
+            q41: "b", q42: "b", q43: "a", q44: "c", q45: "a",
+            q46: "b", q47: "c", q48: "b", q49: "a", q50: "b"
+        };
+
+        // Clear previous results
+        const resultsContainer = document.getElementById("results");
+        resultsContainer.innerHTML = "";
+
+        // Check answers and display results
+        for (let i = 1; i <= 50; i++) {
+            const userAnswer = formData.get(`q${i}`);
+            const correctAnswer = correctAnswers[`q${i}`];
+
+            // Create a new paragraph element for each question
+            const resultParagraph = document.createElement("p");
+            resultParagraph.textContent = `Question ${i}: Your answer - ${userAnswer} | Correct answer - ${correctAnswer}`;
+
+            // Check if the user's answer is correct and color accordingly
+            if (userAnswer === correctAnswer) {
+                resultParagraph.style.color = 'green'; // Correct answer
+                score++;
+            } else {
+                resultParagraph.style.color = 'red'; // Incorrect answer
+            }
+
+            // Append the result paragraph to results container
+            resultsContainer.appendChild(resultParagraph);
+        }
+
+        alert(`Your score is ${score} out of 50`);
+    }
+
+    // Start the timer when the page loads
+    window.onload = startTimer;
+    </script>
+	</body>
+</html>

@@ -6,30 +6,34 @@
 			name="viewport"
 			content="width=device-width, initial-scale=1.0" />
 		<title>Quiz Website - by Circle 12</title>
+        <script src="https://kit.fontawesome.com/13560a6630.js" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
 		<div class="container">
 			<header>
-				<button
-					class="hamburger"
-					popovertarget="menu"
-					aria-label="Open menu"
-					onclick="toggleMenu()">
-					<img
-						src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Hamburger_icon.svg"
-						alt="" />
-				</button>
+                <div class="logo-wrapper">
+                        <button
+                        class="hamburger"
+                        popovertarget="menu"
+                        aria-label="Open menu"
+                        onclick="toggleMenu()">
+                        <span class="fa-solid fa-bars fa-xl" style="color: #5a208d;"></span>
+                    </button>
+                    <p class="logo">CodingQuiz</p>
+                </div>
 				<nav id="menu">
 					<button
 						class="close"
 						popovertarget="menu"
 						popovertargetaction="hide">
-						<span>❌</span>
+						<span
+							class="fa-solid fa-xmark"
+							style="color: #ff3d5a"></span>
 					</button>
 					<ul>
 						<li>
-							<a href="html_quiz/index.html"
+							<a href="html-quiz/index.html"
 								>HTML Quiz</a
 							>
 						</li>
@@ -37,7 +41,7 @@
 							<a href="#">CSS Quiz</a>
 						</li>
 						<li>
-							<a href="js_quiz/index.html"
+							<a href="js-quiz/index.html"
 								>JavaScript Quiz</a
 							>
 						</li>
@@ -46,15 +50,15 @@
 				<nav class="bigScreen">
 					<ul>
 						<li>
-							<a href="html quiz/index.html"
+							<a href="html-quiz/index.html"
 								>HTML Quiz</a
 							>
 						</li>
 						<li>
-							<a href="css_quiz.html">CSS Quiz</a>
+							<a href="#">CSS Quiz</a>
 						</li>
 						<li>
-							<a href="js quiz/index.html"
+							<a href="js-quiz/index.html"
 								>JavaScript Quiz</a
 							>
 						</li>
@@ -66,7 +70,8 @@
 				<p>Choose a language to start your quiz.</p>
 			</main>
             <footer class="footer">
-                <p><a href="#">Developed by ChatGPT</a></p>
+                <p>Js Developed by ChatGPT</p>
+                <p><a href="#">Fork Repo</a></p>
             </footer>
 		</div>
 		<script>
