@@ -14,7 +14,7 @@ Follow these steps to create your own version of the quiz and customize to your 
 6. **Deploy the quiz (*optional*)**: If you want to share your quiz with others, deploy it to a hosting platform.
 
 ## Contribution
-We welcome contributions to improve the quiz! Here are some areas where you can help:
+We welcome contributions to improve the quiz! Here are some areas where you can help (check the **Issues** tab):
 
 * **Create the CSS quiz page:** Develop the HTML, CSS, and JavaScript for the CSS quiz section.
 * **Add more JavaScript questions:** Contribute new JavaScript questions based on Altschool learning content.
