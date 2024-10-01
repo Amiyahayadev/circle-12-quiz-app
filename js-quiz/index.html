@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JavaScript Quiz</title>
-    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="quiz.css" />
     <script src="script.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <a href="../index.html">Home</a>
-        </nav>
+      <nav>
+        <a href="../index.html">Home</a>
+      </nav>
     </header>
 
     <h1>JavaScript Technical Quiz</h1>
@@ -19,95 +19,11 @@
     <div class="timer" id="timer">Time left: 1:00:00</div>
 
     <div class="controls">
-        <button id="startBtn">Start Quiz</button>
-        <button id="pauseBtn" disabled>Pause Quiz</button>
+      <button id="startBtn">Start Quiz</button>
+      <button id="pauseBtn" disabled>Pause Quiz</button>
     </div>
 
-    <form id="quiz">
-        <div class="question" data-answer="Geolocation API">
-            <p>1. Which API is used to find out a user's location?</p>
-            <input type="radio" name="q1" value="Geolocation API">Geolocation API<br>
-            <input type="radio" name="q1" value="Web Storage API">Web Storage API<br>
-            <input type="radio" name="q1" value="Canvas API">Canvas API<br>
-            <span class="feedback"></span>
-        </div>
-
-        <div class="question" data-answer="Fetch API">
-            <p>2. Which JavaScript API is used for making network requests?</p>
-            <input type="radio" name="q2" value="DOM API">DOM API<br>
-            <input type="radio" name="q2" value="Fetch API">Fetch API<br>
-            <input type="radio" name="q2" value="Web Storage API">Web Storage API<br>
-            <span class="feedback"></span>
-        </div>
-
-        <div class="question" data-answer="Browsers, Servers, and any device with a JS engine">
-            <p>3. JavaScript can run on which of the following platforms?</p>
-            <input type="radio" name="q3" value="Browsers only">Browsers only<br>
-            <input type="radio" name="q3" value="Servers only">Servers only<br>
-            <input type="radio" name="q3" value="Browsers, Servers, and any device with a JS engine">Browsers, Servers, and any device with a JS engine<br>
-            <span class="feedback"></span>
-        </div>
-
-        <div class="question" data-answer="To load the script after the HTML content is fully loaded">
-            <p>4. What is the purpose of the <code>defer</code> attribute in a <code>&lt;script&gt;</code> tag?</p>
-            <input type="radio" name="q4" value="To load the script immediately">To load the script immediately<br>
-            <input type="radio" name="q4" value="To load the script after the HTML content is fully loaded">To load the script after the HTML content is fully loaded<br>
-            <input type="radio" name="q4" value="To prevent the script from running">To prevent the script from running<br>
-            <span class="feedback"></span>
-        </div>
-
-        <div class="question" data-answer="let allows re-assignment, const does not">
-            <p>5. What is the difference between <code>let</code> and <code>const</code> in JavaScript?</p>
-            <input type="radio" name="q5" value="let allows re-assignment, const does not">let allows re-assignment, const does not<br>
-            <input type="radio" name="q5" value="const allows re-assignment, let does not">const allows re-assignment, let does not<br>
-            <input type="radio" name="q5" value="Both are the same">Both are the same<br>
-            <span class="feedback"></span>
-        </div>
-
-           <!-- Additional Questions -->
-        <div class="question" data-answer="Document Object Model (DOM) API">
-            <p>6. Which API allows you to manipulate the structure and content of a web page?</p>
-            <input type="radio" name="q6" value="Geolocation API">Geolocation API<br>
-            <input type="radio" name="q6" value="Document Object Model (DOM) API">Document Object Model (DOM) API<br>
-            <input type="radio" name="q6" value="Web Storage API">Web Storage API<br>
-            <span class="feedback"></span>
-        </div>
-
-        <div class="question" data-answer="External JavaScript">
-            <p>7. Which method of adding JavaScript is generally better for organizing code and making it reusable?</p>
-            <input type="radio" name="q7" value="Inline JavaScript">Inline JavaScript<br>
-            <input type="radio" name="q7" value="Internal JavaScript">Internal JavaScript<br>
-            <input type="radio" name="q7" value="External JavaScript">External JavaScript<br>
-            <span class="feedback"></span>
-        </div>
-
-        <div class="question" data-answer="Automatic semicolon insertion">
-            <p>8. What is the term used when JavaScript automatically adds a semicolon at the end of a line?</p>
-            <input type="radio" name="q8" value="Automatic line break">Automatic line break<br>
-            <input type="radio" name="q8" value="Implicit semicolon">Implicit semicolon<br>
-            <input type="radio" name="q8" value="Automatic semicolon insertion">Automatic semicolon insertion<br>
-            <span class="feedback"></span>
-        </div>
-
-        <div class="question" data-answer="SquirrelFish">
-            <p>9. What is the name of the JavaScript engine used in Safari?</p>
-            <input type="radio" name="q9" value="V8">V8<br>
-            <input type="radio" name="q9" value="SpiderMonkey">SpiderMonkey<br>
-            <input type="radio" name="q9" value="SquirrelFish">SquirrelFish<br>
-            <span class="feedback"></span>
-        </div>
-
-        <div class="question" data-answer="Chakra">
-            <p>10. Which JavaScript engine is used in Internet Explorer?</p>
-            <input type="radio" name="q10" value="V8">V8<br>
-            <input type="radio" name="q10" value="Chakra">Chakra<br>
-            <input type="radio" name="q10" value="Nitro">Nitro<br>
-            <span class="feedback"></span>
-        </div>
-        <button type="submit">Submit</button>
-    </form>
-
-
-
-</body>
+    <!-- placeholder for questions -->
+    <form id="quiz"></form>
+  </body>
 </html>
